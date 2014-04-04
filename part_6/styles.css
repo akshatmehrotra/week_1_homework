@@ -1,6 +1,74 @@
 body {
   font-family: "Computer Modern Serif";
-  font-size: 16pt;
+  font-size: 13pt;
+}
+#wrap{
+  width: 1300px;
+  margin: 0 auto;
+}
+#table_wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+h1 {text-align:center}
+
+.subtitle{
+  text-align: center;
+  font-style: italic;
+}
+.quotation{
+  font-style: italic;
+}
+.author{
+  text-align: right;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+h2 {
+  text-transform: uppercase;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding-top: 1px;
+  padding-bottom: 1px; 
+}
+
+dt {
+  float: left;
+  width: 200px;
+}
+dd {
+  margin: 0 0 0 210px;
+  padding: 0 0 0.5em 0;
+}
+
+small{
+  text-transform: initial;
+  font-style: italic
+}
+
+.schedule{
+  border: 1px solid;
+  border-collapse: collapse;
+
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+.week{
+  -webkit-transform: rotate(-90deg);
+  border: 1px solid;
+  text-transform: uppercase;
+}
+.odd_week{
+  border: 1px solid;
+  background-color: #E6E6FA;
+}
+td{
+  border: 1px solid;
 }
 
 
