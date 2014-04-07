@@ -3,3 +3,37 @@
 * {
   border: thin red solid;
 }
+.row {
+  clear: both;
+}
+.heading{
+	height: 200px;
+	background-color: #D3D3D3;
+}
+#leftsection{
+	float:left;
+	width:33%;
+}
+#midsection{
+	float:left;
+	width:33%;
+}
+#rightsection{
+	float: right;
+	width:33%;
+}
+.button{
+	background-color: blue;
+	border-radius: 25px;
+	padding-left: 2em;
+	padding-right: 2em;
+	color: white;
+}
+.rightside{
+	float:left; 
+	width: 66%;
+}
+.quarter{
+	float:left;
+	width: 25%;
+}
